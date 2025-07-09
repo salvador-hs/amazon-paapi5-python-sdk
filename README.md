@@ -1,10 +1,5 @@
 # Product Advertising API 5.0 SDK for Python
 
-
-[![pypi version](http://img.shields.io/pypi/v/paapi5-python-sdk.svg?style=flat)](https://pypi.python.org/pypi/paapi5-python-sdk/)
-[![pypi downloads](https://img.shields.io/pypi/dm/paapi5-python-sdk.svg.svg?style=flat)](https://pypi.python.org/pypi/paapi5-python-sdk/)
-
-
 This repository contains the official Product Advertising API 5.0 Python SDK called **paapi5-python-sdk** that allows you to access the [Product Advertising API](https://webservices.amazon.com/paapi5/documentation/index.html) from your Python app.
 
 ## Requirements
@@ -18,15 +13,9 @@ Python 2.7 and 3.4+
 You can directly install it from pip using:
 
 ```sh
-pip install paapi5-python-sdk
+pip install git+https://github.com/salvador-hs/amazon-paapi5-python-sdk.git
 ```
-
-Or, you may also install directly from Github
-
-```sh
-pip install git+https://github.com/amzn/paapi5-python-sdk.git
-```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/amzn/paapi5-python-sdk.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/salvador-hs/amazon-paapi5-python-sdk.git`)
 
 Then import the package:
 ```python

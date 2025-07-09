@@ -1,0 +1,11 @@
+# IDEs and editors
+.idea/
+.vscode
+
+# System Files
+.DS_Store/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+__pycache__/

@@ -27,7 +27,7 @@ import os
 from setuptools import find_packages, setup  # noqa: H301
 
 NAME = "paapi5-python-sdk"
-VERSION = "1.1.0"
+VERSION = "1.2.3"
 # To install the library, run the following
 #
 # python setup.py install

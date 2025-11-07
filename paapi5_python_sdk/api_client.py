@@ -95,7 +95,7 @@ class ApiClient(object):
             self.default_headers[header_name] = header_value
         self.cookie = cookie
         # Set default User-Agent.
-        self.user_agent = 'paapi5-python-sdk/1.2.1'
+        self.user_agent = 'paapi5-python-sdk/1.2.3'
 
         self.access_key = access_key
         self.secret_key = secret_key

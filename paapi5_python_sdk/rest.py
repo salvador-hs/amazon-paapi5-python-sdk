@@ -25,7 +25,6 @@ from __future__ import absolute_import
     https://webservices.amazon.com/paapi5/documentation/index.html  # noqa: E501
 """
 
-
 import io
 import json
 import logging

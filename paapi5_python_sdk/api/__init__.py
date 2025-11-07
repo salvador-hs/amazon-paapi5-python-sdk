@@ -25,6 +25,5 @@ from __future__ import absolute_import
     https://webservices.amazon.com/paapi5/documentation/index.html  # noqa: E501
 """
 
-
 # import apis into api package
 from paapi5_python_sdk.api.default_api import DefaultApi

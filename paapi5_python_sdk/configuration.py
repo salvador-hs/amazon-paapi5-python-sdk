@@ -25,7 +25,6 @@ from __future__ import absolute_import
     https://webservices.amazon.com/paapi5/documentation/index.html  # noqa: E501
 """
 
-
 import copy
 import logging
 import multiprocessing
@@ -228,6 +227,6 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
         return "Python SDK Debug Report:\n"\
                "OS: {env}\n"\
                "Python Version: {pyversion}\n"\
-               "Version of the API: 1.0.0\n"\
-               "SDK Package Version: 1.0.0".\
+               "Version of the API: 5.0.0\n"\
+               "SDK Package Version: 1.2.3".\
                format(env=sys.platform, pyversion=sys.version)
